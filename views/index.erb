@@ -9,13 +9,13 @@
   </head>
 
   <body>
-    <header>
-        <h1>Here's a Cat Fact!</h1>
-        <h4><%= cat_facts%></h4>
-        <div id="pic">
-          <img src="http://thecatapi.com/api/images/get?format=src&type=gif" height="300" width=auto>
-        </div>
-        <h4><a href="/catfacts">MORE CATS</a></h4>
-    </header>
+    <div class="credit">Created and Copywrited by Brian Stern & Jesse Norris</div>
+    <div class="container">
+      <div class="header">Here's a Cat Fact!</div>
+      <div class="fact"><%= cat_facts%></div>
+      <div class="api_image"><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></div>
+      <div class="refresh_link"><a href="/catfacts">PICK A NEW LITTER</a></div>
+      <div class="end"></div>
+    </div>
   </body>
 </html>

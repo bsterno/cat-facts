@@ -1,7 +1,5 @@
 require 'sinatra'
-require 'sinatra/json'
 require 'httparty'
-require 'pry'
 require 'JSON'
 
 

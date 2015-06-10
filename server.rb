@@ -1,8 +1,6 @@
 require 'sinatra'
 require 'httparty'
 
-
-
 get "/" do
   redirect "/catfacts"
 end

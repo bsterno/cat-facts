@@ -1,5 +1,7 @@
 body {
   background-image: url(/grey-cat.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
   background-color: #CECECE;
   font-family:Arial, Gadget, sans-serif;
 }
@@ -21,7 +23,7 @@ body {
 }
 
 .api_image {
-  max-height: 500px;
+  max-height: 400px;
 }
 
 .refresh_link {

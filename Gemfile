@@ -1,6 +1,4 @@
 source 'https://rubygems.org'
 ruby '2.2.0'
-require 'rack'
 require 'sinatra'
 require 'httparty'
-require 'JSON'

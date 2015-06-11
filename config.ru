@@ -1,1 +1,3 @@
-use Rack::Static, :urls => ['/css'], :root => 'public'
+map "/public" do
+  run Rack::Directory.new("./public")
+end

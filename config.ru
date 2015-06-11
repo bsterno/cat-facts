@@ -1,2 +1,1 @@
-run lambda { |env| [200, {'Content-Type'=>'text/plain'}, StringIO.new("Hello World!\n")] }
-
+use Rack::Static, :urls => ['/css'], :root => 'public'
